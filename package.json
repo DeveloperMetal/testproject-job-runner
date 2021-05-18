@@ -1,0 +1,19 @@
+{
+  "name": "testproject-job-runner",
+  "version": "1.0.0",
+  "description": "A github action tool to execute testproject jobs",
+  "main": "./index.js",
+  "type": "module",
+  "author": "Felipe Orellana <forellana@digithinkit.com>",
+  "license": "MIT",
+  "bin": {
+    "testproject-job-runner": "index.js"
+  },
+  "engines" : {
+    "node" : ">=16"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "yargs": "^17.0.1"
+  }
+}
